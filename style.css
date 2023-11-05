@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@1,200;1,300&family=Noto+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display:flex
+}
+
+h1 {
+    color:white;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.banner {
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+}
+
+.news {
+    padding: 50px;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.top {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topp {
+    color: white;
+    max-width: 200px;
+    text-align: center;
+}
+
+.advert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner {
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
